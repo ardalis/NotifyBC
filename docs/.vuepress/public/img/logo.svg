@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" viewBox="0 0 150 55" >
-  <defs>
-    <filter id="halo" x="0" y="0">
-      <feGaussianBlur result="blurOut" in="SourceGraphic" stdDeviation="3"/>
-      <feBlend in="SourceGraphic" in2="blurOut" mode="normal"/>
-    </filter>
-  </defs>
-  <text style="white-space:pre" filter="url(#halo)" rx="30" y="40" font-family="Arial" font-size="32" fill="midnightblue" font-weight="bold"> NotifyBC</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" viewBox="0 0 150 55"><defs><filter id="halo" x="0" y="0"><feGaussianBlur in="SourceGraphic" result="blurOut" stdDeviation="3"/><feBlend in="SourceGraphic" in2="blurOut" mode="normal"/></filter></defs><text style="white-space:pre" y="40" fill="#191970" filter="url(#halo)" font-family="Arial" font-size="32" font-weight="bold" rx="30">NotifyBC</text></svg>
